@@ -20,7 +20,7 @@ const Navbar = () => {
                         {menuitems}
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-xl">Treatment Plus</a>
+                <img src="https://i.ibb.co/W27drSx/1-removebg-preview.png" className='h-16 w-54'/>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
