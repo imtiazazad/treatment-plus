@@ -1,7 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
 import DocTeam from './DocTeam';
-import Doctors from './Doctors';
 import Services from './Services';
 
 
