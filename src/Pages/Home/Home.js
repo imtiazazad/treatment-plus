@@ -3,7 +3,6 @@ import Banner from './Banner';
 import DocTeam from './DocTeam';
 import Services from './Services';
 
-
 const Home = () => {
     return (
         <div>
