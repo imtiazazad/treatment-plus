@@ -1,7 +1,6 @@
 import React from 'react';
 import SimpleMap from './SimpleMap';
 
-// api key = AIzaSyDmbqnynYfoFBYLCEON3clycKPAE7kqYcU
 
 const Consultation = () => {
     return (

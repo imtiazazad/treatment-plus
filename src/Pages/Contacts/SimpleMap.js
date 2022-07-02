@@ -22,5 +22,5 @@ class SimpleMap extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyDmbqnynYfoFBYLCEON3clycKPAE7kqYcU"
+  apiKey: process.env.REACT_APP_GOOGLE_API_KEY
 })(SimpleMap)
