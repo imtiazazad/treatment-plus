@@ -6,7 +6,7 @@ const Navbar = () => {
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/shop'>Shop</Link></li>
         <li><Link to='/about'>About</Link></li>
-        <li><Link to='/contactus'>Contact Us</Link></li>
+        <li><Link to='/contact'>Contact Us</Link></li>
         <li><Link to='/login'>Login</Link></li>
     </>
     return (
@@ -20,7 +20,7 @@ const Navbar = () => {
                         {menuitems}
                     </ul>
                 </div>
-                <img src="https://i.ibb.co/W27drSx/1-removebg-preview.png" className='h-16 w-54'/>
+                <img src="https://i.ibb.co/W27drSx/1-removebg-preview.png" className='h-16 w-54' />
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
