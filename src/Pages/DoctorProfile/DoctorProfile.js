@@ -53,8 +53,11 @@ const DoctorProfile = () => {
               />
               <p className="text-lg font-medium">4th Floor, 408 No Chamber</p>
             </div>
+            
           </div>
+          <button class="btn btn-primary w-full mt-52">Book an Appointment</button>
         </div>
+        
         <div className="rounded shadow-md h-full md:col-span-2 p-5 md:p-8">
           <div className="mb-5">
             <h3 className="font-medium text-3xl text-center md:text-left mb-5 text-primary opacity-80">

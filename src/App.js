@@ -8,6 +8,7 @@ import SignUp from './Pages/Login/SignUp';
 import DoctorProfile from './Pages/DoctorProfile/DoctorProfile';
 import Contact from './Pages/Contacts/Contact';
 import NotFound from './Pages/Shared/NotFound';
+import Appointment from './Pages/Appointment/Appointment';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<SignUp />} />
+        <Route path="appointment" element={<Appointment />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
