@@ -11,9 +11,9 @@ const Calender = ({date, setDate}) => {
     }
 
     return (
-        <div class="hero" style={{ backgroundImage: "url(https://i.ibb.co/WsqzDVn/doc.jpg)", height: '520px', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+        <div class="hero">
             <div class="hero-content text-center">
-                <div class="max-w-md mr-96">
+                <div class="max-w-md ">
                     <DayPicker mode="single"
                         selected={date}
                         onSelect={setDate}

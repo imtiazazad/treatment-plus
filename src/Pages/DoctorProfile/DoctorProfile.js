@@ -1,7 +1,18 @@
-import React from "react";
-import Navbar from "../Shared/Navbar";
+import React, { useState } from 'react'
+import AvailableDate from './AvailableDate'
+import Calender from './Calender'
+import { format } from 'date-fns';
 
 const DoctorProfile = () => {
+
+  const [date, setDate] = useState(new Date());
+
+    let footer = <p>Please pick a day.</p>;
+    if (date) {
+        footer = <p className='text-xl font-bold pr-10 mt-10'>Your Appointment Date {format(date, 'PP')}</p>;
+    }
+
+
   return (
     <div>
       <div className="bg-primary opacity-80 py-8 md:py-12 mb-8 md:mb-12">
@@ -55,7 +66,13 @@ const DoctorProfile = () => {
             </div>
             
           </div>
-          <button class="btn btn-primary w-full mt-52">Book an Appointment</button>
+          <div class="divider"></div> 
+          <>
+          <h3 className='font-bold text-2xl text-center text-primary'>Select Date for Appointment</h3>
+        <Calender date={date} setDate={setDate}></Calender>
+        <AvailableDate date={date} footer={footer}></AvailableDate>
+        </>
+         
         </div>
         
         <div className="rounded shadow-md h-full md:col-span-2 p-5 md:p-8">
@@ -69,8 +86,16 @@ const DoctorProfile = () => {
               ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
               accumsan lacus vel facilisis.Lorem ipsum dolor sit amet,
               consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt.
             </p>
           </div>
+          <div class="divider"></div> 
           <div className="mb-5">
             <h3 className="font-medium text-3xl text-center md:text-left mb-5 text-primary opacity-80">
               Education
@@ -88,8 +113,15 @@ const DoctorProfile = () => {
               <p className="text-justify font-medium text-base mb-3">
                 ● Higher Secondary Certificate at Mediserv collage (1991)
               </p>
+              <p className="text-justify font-medium text-base mb-3">
+                ● Higher Secondary Certificate at Mediserv collage (1991)
+              </p>
+              <p className="text-justify font-medium text-base mb-3">
+                ● Higher Secondary Certificate at Mediserv collage (1991)
+              </p>
             </div>
           </div>
+          <div class="divider"></div> 
           <div className="mb-5">
             <h3 className="font-medium text-3xl text-center md:text-left mb-5 text-primary opacity-80 text-primary opacity-80">
               Expertise
@@ -104,6 +136,38 @@ const DoctorProfile = () => {
                 <div>
                   <h4 className="text-2xl font-medium mb-3 text-center md:text-left text-primary opacity-80">
                     Heart Specialist
+                  </h4>
+                  <p className="text-justify text-sm">
+                    Sirius WordPress Theme features a slick and clean design
+                    that is suitable for virtually any type of website
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col md:flex-row items-center py-5 md:p-5">
+                <img
+                  className="w-16 h-16 mb-5 md:mb-0 md:mr-6"
+                  src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/452/external-kidneys-anatomy-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"
+                  alt=""
+                />
+                <div>
+                  <h4 className="text-2xl font-medium mb-3 text-center md:text-left text-primary opacity-80">
+                    Kidney Specialist
+                  </h4>
+                  <p className="text-justify text-sm">
+                    Sirius WordPress Theme features a slick and clean design
+                    that is suitable for virtually any type of website
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col md:flex-row items-center py-5 md:p-5">
+                <img
+                  className="w-16 h-16 mb-5 md:mb-0 md:mr-6"
+                  src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/452/external-kidneys-anatomy-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"
+                  alt=""
+                />
+                <div>
+                  <h4 className="text-2xl font-medium mb-3 text-center md:text-left text-primary opacity-80">
+                    Kidney Specialist
                   </h4>
                   <p className="text-justify text-sm">
                     Sirius WordPress Theme features a slick and clean design
@@ -161,6 +225,7 @@ const DoctorProfile = () => {
               </div>
             </div>
           </div>
+          <div class="divider"></div> 
           <div className="mb-5">
             <h3 className="font-medium text-3xl text-center md:text-left mb-5 text-primary opacity-80">
               Working Hours
