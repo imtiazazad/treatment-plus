@@ -2,7 +2,7 @@ import React from 'react';
 
 const Consultation = () => {
     return (
-        <div className='mt-10 md:px-24 px-4'>
+        <div className='mt-10 md:px-24 px-4 mb-20'>
             <h1 className='text-4xl text-center font-semibold'>Request a Consultation</h1>
             <div className='divider w-14 mt-2 bg-cyan-400 h-1 mx-auto'></div>
             <form className='mt-10'>

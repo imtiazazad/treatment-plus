@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faPhoneFlip, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import Consultation from './Consultation';
+import WorkingHours from './WorkingHours';
 
 const Contact = () => {
     return (
@@ -40,6 +41,7 @@ const Contact = () => {
                 </div>
             </div>
             <Consultation />
+            <WorkingHours/>
         </>
     );
 };
