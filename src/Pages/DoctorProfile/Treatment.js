@@ -1,7 +1,28 @@
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { Navigate, useLocation } from 'react-router-dom';
+import auth from '../../firebase.init';
+import Loading from '../Shared/Loading';
+import { useNavigate } from 'react-router-dom';
 
 const Treatment = ({ treatment, setBook }) => {
     const {slots} = treatment;
+    const [user, loading] = useAuthState(auth);
+    const location = useLocation();
+    const navigate =useNavigate();
+
+    if(loading){
+        return <Loading/>
+    }
+
+    const handleAppointment = () =>{
+        if(!user){
+            return navigate('/login')
+            
+        }
+        setBook(treatment);
+    }
+    
     return (
     
             
@@ -18,7 +39,7 @@ const Treatment = ({ treatment, setBook }) => {
                 <div class="card-actions justify-center">                    
                     <label 
                     for="booking-modal" disabled={slots.length===0} 
-                    onClick={() => setBook(treatment)} 
+                    onClick={() => handleAppointment()} 
                     class="btn btn-primary w-full">Book Appointment</label>
 
                 </div>

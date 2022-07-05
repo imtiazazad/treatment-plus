@@ -30,7 +30,7 @@ const Login = () => {
     }
 
     if (user || guser) {
-        navigate('from, { replace: true }');
+        navigate(from, { replace: true });
     }
 
     const onSubmit = data => {

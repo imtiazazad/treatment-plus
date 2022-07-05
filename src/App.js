@@ -8,8 +8,8 @@ import SignUp from './Pages/Login/SignUp';
 import DoctorProfile from './Pages/DoctorProfile/DoctorProfile';
 import Contact from './Pages/Contacts/Contact';
 import NotFound from './Pages/Shared/NotFound';
-import RequireAuth from './Pages/Login/RequireAuth';
-import BookingModal from './Pages/DoctorProfile/BookingModal';
+import Footer from './Pages/Shared/Footer';
+
 
 function App() {
   return (
@@ -18,17 +18,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="doctor" element={<DoctorProfile />} />
-        <Route path="appointment" element={
-        <RequireAuth>
-          <BookingModal></BookingModal>
-        </RequireAuth>
-        } />
         <Route path='contact' element={<Contact />} />
         <Route path="about" element={<About />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<SignUp />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
