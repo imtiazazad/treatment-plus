@@ -6,7 +6,7 @@ import img3 from "../../images/img3.jpg";
 
 const DocTeam = () => {
     return (
-        <div>
+        <div className='mb-20'>
         <div class="carousel w-full">
   <div id="item1" class="carousel-item">
   <div class="card w-96 bg-base-100 shadow-xl ml-14">
