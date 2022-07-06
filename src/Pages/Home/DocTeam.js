@@ -4,7 +4,8 @@ import img2 from "../../images/img2.jpg";
 import img3 from "../../images/img3.jpg";
 
 
-const DocTeam = () => {
+const DocTeam = ({ doctor }) => {
+  const {_id, name, position, graduation, contact, email, location, biography, education, expertise, heartSpecialist, kidneySpecialist, stomachSpecialist, liverSpecialist} = doctor;
     return (
         <div className='mb-20'>
         <div class="carousel w-full">
@@ -12,8 +13,8 @@ const DocTeam = () => {
   <div class="card w-96 bg-base-100 shadow-xl ml-14">
   <figure><img src={img1} alt="Shoes" /></figure>
   <div class="card-body">
-    <h2 class="card-title">Dr Makota Brown</h2>
-    <h3 className='text-start font-bold mb-5'>Therapist</h3>
+    <h2 class="card-title">{name}</h2>
+    <h3 className='text-start font-bold mb-5'>{position}</h3>
     <p className='text-start'>Monday-Friday<span className='pl-32'>8:30-17:00</span></p>
     <p className='text-start'>Saturday   <span className='pl-40'>10:00-16:00</span></p>
     <p className='text-start'>Sunday<span className='pl-44'>12:00-14:00</span></p>
@@ -25,8 +26,8 @@ const DocTeam = () => {
 <div class="card w-96 bg-base-100 shadow-xl ml-10">
   <figure><img src={img2} alt="Shoes" /></figure>
   <div class="card-body">
-  <h2 class="card-title">Dr Makota Brown</h2>
-    <h3 className='text-start font-bold mb-5'>Therapist</h3>
+  <h2 class="card-title">{name}</h2>
+    <h3 className='text-start font-bold mb-5'>{position}</h3>
     <p className='text-start'>Monday-Friday<span className='pl-32'>8:30-17:00</span></p>
     <p className='text-start'>Saturday   <span className='pl-40'>10:00-16:00</span></p>
     <p className='text-start'>Sunday<span className='pl-44'>12:00-14:00</span></p>
@@ -39,8 +40,8 @@ const DocTeam = () => {
 <div class="card w-96 bg-base-100 shadow-xl ml-10">
   <figure><img src={img3} alt="Shoes" /></figure>
   <div class="card-body">
-  <h2 class="card-title">Dr Makota Brown</h2>
-    <h3 className='text-start font-bold mb-5'>Therapist</h3>
+  <h2 class="card-title">{name}</h2>
+    <h3 className='text-start font-bold mb-5'>{position}</h3>
     <p className='text-start'>Monday-Friday<span className='pl-32'>8:30-17:00</span></p>
     <p className='text-start'>Saturday   <span className='pl-40'>10:00-16:00</span></p>
     <p className='text-start'>Sunday<span className='pl-44'>12:00-14:00</span></p>
@@ -54,8 +55,8 @@ const DocTeam = () => {
   <div class="card w-96 bg-base-100 shadow-xl ml-14">
   <figure><img src={img1} alt="Shoes" /></figure>
   <div class="card-body">
-    <h2 class="card-title">Dr Makota Brown</h2>
-    <h3 className='text-start font-bold mb-5'>Therapist</h3>
+    <h2 class="card-title">{name}</h2>
+    <h3 className='text-start font-bold mb-5'>{position}</h3>
     <p className='text-start'>Monday-Friday<span className='pl-32'>8:30-17:00</span></p>
     <p className='text-start'>Saturday   <span className='pl-40'>10:00-16:00</span></p>
     <p className='text-start'>Sunday<span className='pl-44'>12:00-14:00</span></p>
