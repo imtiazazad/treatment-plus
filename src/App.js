@@ -9,7 +9,7 @@ import DoctorProfile from './Pages/DoctorProfile/DoctorProfile';
 import Contact from './Pages/Contacts/Contact';
 import NotFound from './Pages/Shared/NotFound';
 import Footer from './Pages/Shared/Footer';
-
+import Shop from './Pages/Shop/Shop';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="doctor" element={<DoctorProfile />} />
         <Route path='contact' element={<Contact />} />
+        <Route path='shop' element={<Shop />} />
         <Route path="about" element={<About />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<SignUp />} />
