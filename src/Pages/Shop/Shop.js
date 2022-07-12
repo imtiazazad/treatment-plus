@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Shop = () => {
-    const [isActive, setIsActive] = useState(false);
+    const [isActive, setIsActive] = useState(true);
 
     const handleArrival = () => {
 
@@ -21,13 +21,24 @@ const Shop = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='mt-2 px-4'>
                 <div className="tabs">
-                    <button onClick={handleArrival} className="tab tab-bordered">NEW ARRIVAL</button>
-                    <button className="tab tab-bordered tab-active">SALE PRODUCTS</button>
+                    <button onClick={() => setIsActive(true)}
+                        className={`tab tab-bordered ${isActive ? 'tab-active' : ''}`}>NEW ARRIVAL</button>
+                    <button onClick={() => setIsActive(false)}
+                        className={`tab tab-bordered ${isActive ? '' : 'tab-active'}`}>SALE PRODUCTS</button>
                 </div>
                 <div>
+                    {
+                        isActive ?
+                            <div>
 
+                            </div>
+                            :
+                            <div>
+
+                            </div>
+                    }
                 </div>
             </div>
         </div>
