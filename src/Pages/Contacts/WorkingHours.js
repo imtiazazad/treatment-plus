@@ -3,18 +3,78 @@ import React from 'react';
 const WorkingHours = () => {
     return (
 
-        <div className="hero" style={{ backgroundImage: "url(http://promo-theme.com/medina-wp/wp-content/uploads/2016/10/working-hours.jpg)", height: '420px', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
-            <ul class="steps steps-vertical lg:steps-horizontal">
-                <li class="step step-primary">Register</li>
-                <li class="step step-primary">Choose plan</li>
-                <li class="step">Purchase</li>
-                <li class="step">Receive Product</li>
-                <li class="step">Receive Product</li>
-                <li class="step">Saturday</li>
-                <li class="step">Sunday</li>
-            </ul>
-
+        <div className="hero" style={{ backgroundImage: "url(https://promo-theme.com/medina-wp/wp-content/uploads/2016/10/working-hours.jpg)", height: '420px', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+        <div className='flex flex-wrap gap-5'>
+        <div className='flex items-center justify-center'>
+            <div>
+            <div className='bg-primary font-bold text-white text-3xl w-[130px] h-[130px] rounded-[50%] flex justify-center items-center'>
+            SUN
+            </div>
+            <p className='mt-2'>CLOSED</p>
+            </div>
+            </div>
+        <div className='flex items-center justify-center'>
+            <div className='mb-44'>
+            <div className='border border-primary hover:bg-primary font-bold text-primary hover:text-white text-3xl w-[130px] h-[130px] rounded-[50%] flex justify-center items-center'>
+            MON
+            </div>
+            <p className='mt-2 tracking-widest'>09:00 - 18:00</p>
+            </div>
+            </div>
+        <div className='flex items-center justify-center'>
+            <div>
+            <div className='border border-primary hover:bg-primary font-bold text-primary hover:text-white text-3xl w-[130px] h-[130px] rounded-[50%] flex justify-center items-center'>
+            TUE
+            </div>
+            <p className='mt-2 tracking-widest'>09:00 - 18:00</p>
+            </div>
+            </div>
+        <div className='flex items-center justify-center'>
+            <div className='mb-44'>
+            <div className='border border-primary hover:bg-primary font-bold text-primary hover:text-white text-3xl w-[130px] h-[130px] rounded-[50%] flex justify-center items-center'>
+            WED
+            </div>
+            <p className='mt-2 tracking-widest'>09:00 - 18:00</p>
+            </div>
+            </div>
+        <div className='flex items-center justify-center'>
+            <div>
+            <div className='border border-primary hover:bg-primary font-bold text-primary hover:text-white text-3xl w-[130px] h-[130px] rounded-[50%] flex justify-center items-center'>
+            THU
+            </div>
+            <p className='mt-2 tracking-widest'>09:00 - 18:00</p>
+            </div>
+            </div>
+        <div className='flex items-center justify-center'>
+            <div className='mb-44'>
+            <div className='border border-primary font-bold text-primary hover:bg-primary  hover:text-white text-3xl w-[130px] h-[130px] rounded-[50%] flex justify-center items-center'>
+            FRI
+            </div>
+            <p className='mt-2 tracking-widest'>09:00 - 18:00</p>
+            </div>
+            </div>        
+        <div className='flex items-center justify-center'>
+            <div>
+            <div className='bg-primary font-bold text-white text-3xl w-[130px] h-[130px] rounded-[50%] flex justify-center items-center'>
+            SAT
+            </div>
+            <p className='mt-2'>CLOSED</p>
+            </div>
+            </div>        
         </div>
+        </div>
+        // <div className="hero" style={{ backgroundImage: "url(http://promo-theme.com/medina-wp/wp-content/uploads/2016/10/working-hours.jpg)", height: '420px', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+        //     <ul class="steps steps-vertical lg:steps-horizontal">
+        //         <li class="step step-primary">Register</li>
+        //         <li class="step step-primary">Choose plan</li>
+        //         <li class="step">Purchase</li>
+        //         <li class="step">Receive Product</li>
+        //         <li class="step">Receive Product</li>
+        //         <li class="step">Saturday</li>
+        //         <li class="step">Sunday</li>
+        //     </ul>
+
+        // </div>
 
 
 

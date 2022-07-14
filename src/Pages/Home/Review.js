@@ -1,4 +1,5 @@
 import React from 'react';
+import CountUp from 'react-countup';
 import cardiogram from '../../images/cardiogram.png'
 import premolar from '../../images/premolar.png'
 import lungs from '../../images/lungs.png'
@@ -15,28 +16,28 @@ const Review = () => {
           <div class="stat justify-items-center">
           <img src={cardiogram} className='h-20 w-20'/>
           <div class="stat-title text-primary font-bold">OVER</div>
-            <div class="stat-value text-5xl">220</div>
+          <CountUp className="text-5xl font-bold" end={220}/>
             <div class="stat-desc text-2xl">Saved hearts</div>
           </div>
 
           <div class="stat justify-items-center">
           <img src={premolar} className='h-20 w-20'/>
           <div class="stat-title text-primary font-bold">OVER</div>
-            <div class="stat-value  text-5xl">2568</div>
+          <CountUp className="text-5xl font-bold" end={2598}/>
             <div class="stat-desc  text-2xl">Saved hearts</div>
           </div>
 
           <div class="stat justify-items-center">
           <img src={lungs} className='h-20 w-20'/>
           <div class="stat-title text-primary font-bold">OVER</div>
-            <div class="stat-value  text-5xl">120</div>
+          <CountUp className="text-5xl font-bold" end={120}/>
             <div class="stat-desc  text-2xl">Saved hearts</div>
           </div>
 
           <div class="stat justify-items-center">
           <img src={stomach} className='h-20 w-20'/>
           <div class="stat-title text-primary font-bold">OVER</div>
-            <div class="stat-value  text-5xl">190</div>
+          <CountUp className="text-5xl font-bold" end={190}/>
             <div class="stat-desc  text-2xl">Saved hearts</div>
           </div>
         </div>
