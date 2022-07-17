@@ -1,30 +1,50 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
+import useArrival from '../../hooks/useArrival';
 
 const Checkout = () => {
+    const { productId } = useParams();
+    const [arrivalData] = useArrival();
+    const [totalPrice, setTotalPrice] = useState();
+
+    const singleData = arrivalData.find(single => single._id == productId);
+
+    const handleInputValue = (e) => {
+        let value = parseInt(e.target.value);
+
+        if (value < 0) {
+            alert('value can not be less than 0');
+            value = 1;
+        }
+        else {
+            setTotalPrice(value);
+        }
+    }
+
     return (
-        <div className='grid grid-cols-1 md:flex gap-4 mt-12 md:px-12 px-2'>
-            <div className='w-2/3'>
-                <div className="bg-slate-100 px-2 flex align-middle justify-between">
-                    <figure><img className='w-16' src="https://placeimg.com/400/400/arch" alt="Album" /></figure>
-                    <div className="">
-                        <h2 className="text-xl text-start font-semibold">Product Name</h2>
-                        <p className='text-start font-semibold'>$ 50.2</p>
-                        <div>
-                            <input className='w-12' type="number" name="quantity" id="quantity" />
-                        </div>
-                        <div className="">
-                            <button className="btn btn-primary">Listen</button>
-                        </div>
-                    </div>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 px-4'>
+            <div className='flex justify-between align-middle shadow px-12 my-auto'>
+                <img className='h-28' src={singleData?.img} alt=" " />
+                <div className='my-auto'>
+                    <h4>{singleData?.name}</h4>
+                    <p>${singleData?.price}</p>
+                </div>
+                <div className='my-auto'>
+                    <input onChange={handleInputValue}
+                        onLoad={(e) => e.target.value = 1}
+                        className='input focus:outline-none input-bordered w-24' type="text" name="quantity" id="quantity" />
+                </div>
+                <div className='my-auto'>
+                    <h4 className='text-cyan-500'>${singleData?.price * totalPrice}</h4>
                 </div>
             </div>
-            <div>
+            <div className='mx-auto'>
                 <div className="card w-96 bg-base-100 shadow-xl">
                     <div className="card-body">
-                        <h2 className="card-title">Card title!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title">Checkout</h2>
+                        <p>Shipping</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Buy Now</button>
+                            <button className="btn">Checkout</button>
                         </div>
                     </div>
                 </div>
