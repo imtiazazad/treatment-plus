@@ -1,14 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const DocTeam = ({ doctor }) => {
   const { name, position } = doctor;
+  const navigate = useNavigate();
 
   return (
       <>
-      <div class="carousel w-full">
-        <div id="item" class="carousel-item">
-          <div class="card w-96 bg-base-100 shadow-xl ml-14">
-            <figure><img src='url(https://promo-theme.com/medina-wp/wp-content/uploads/2016/10/benefits.jpg)' alt="Shoes" /></figure>
+      <div class="card w-96 bg-base-100 shadow-xl ml-14">
+            <figure><img src={doctor.img} alt="Doctor" /></figure>
             <div class="card-body">
               <h2 class="card-title">{name}</h2>
               <h3 className='text-start font-bold mb-5'>{position}</h3>
@@ -16,16 +16,10 @@ const DocTeam = ({ doctor }) => {
               <p className='text-start'>Saturday   <span className='pl-40'>10:00-16:00</span></p>
               <p className='text-start'>Sunday<span className='pl-44'>12:00-14:00</span></p>
               <div class="card-actions justify-end">
-                <button class="btn btn-primary mt-5">Read More</button>
+                <button onClick={()=> navigate(`/doctor`)} class="btn btn-primary mt-5">Read More</button>
               </div>
             </div>
-          </div>
-        </div>
-        </div>
-        <div class="flex justify-center w-full py-2 gap-2">
-          <a href="#item" class="btn btn-xs">1</a>
-        </div>
-
+            </div>
       </>
       );
 }

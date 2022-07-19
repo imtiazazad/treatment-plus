@@ -226,37 +226,7 @@ const DoctorProfile = () => {
             </div>
           </div>
           <div class="divider"></div> 
-          <div className="mb-5">
-            <h3 className="font-medium text-3xl text-center md:text-left mb-5 text-primary opacity-80">
-              Working Hours
-            </h3>
-            <div className="flex item-center justify-center md:justify-start">
-              <div className="mr-10">
-                <p className="text-justify font-medium text-base mb-3">Mon</p>
-                <p className="text-justify font-medium text-base mb-3">Tue</p>
-                <p className="text-justify font-medium text-base mb-3">Wed</p>
-                <p className="text-justify font-medium text-base mb-3">Thu</p>
-                <p className="text-justify font-medium text-base mb-3">Fri</p>
-              </div>
-              <div>
-                <p className="text-justify font-medium text-base mb-3">
-                  09:00 - 18:00
-                </p>
-                <p className="text-justify font-medium text-base mb-3">
-                  09:00 - 18:00
-                </p>
-                <p className="text-justify font-medium text-base mb-3">
-                  09:00 - 18:00
-                </p>
-                <p className="text-justify font-medium text-base mb-3">
-                  09:00 - 18:00
-                </p>
-                <p className="text-justify font-medium text-base mb-3">
-                  09:00 - 18:00
-                </p>
-              </div>
-            </div>
-          </div>
+          <DoctorProfile/>
         </div>
       </div>
     </div>
