@@ -1,7 +1,6 @@
 import React from 'react';
 import HomeSlider from '../../Components/HomeSlider/HomeSlider';
 import Banner from './Banner';
-import DocTeam from './DocTeam';
 import Review from './Review';
 import Services from './Services';
 
@@ -11,7 +10,7 @@ const Home = () => {
             <Banner></Banner>
             <Services></Services>
             <HomeSlider/>
-            {/* <Review></Review> */}
+            <Review></Review>
         </div>
     );
 };
