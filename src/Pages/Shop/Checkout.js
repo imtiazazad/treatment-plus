@@ -38,9 +38,9 @@ const Checkout = () => {
 
         }
 
-        // console.log(info);
+        console.log(info);
 
-        axios.post(`https://hospisearch-server.vercel.app/init`, info)
+        axios.post(`https://hospisearch-server-production.up.railway.app/init`, info)
             .then(res => {
                 if (res?.data) {
                     window.location = res?.data
