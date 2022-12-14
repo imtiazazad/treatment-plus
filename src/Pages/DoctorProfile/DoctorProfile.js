@@ -31,7 +31,7 @@ const DoctorProfile = () => {
         <div className="rounded shadow-md h-full border-gray-400 p-5 md:p-8 mx-auto md:col-span-1">
           <div>
             <img
-              src="https://templates.hibootstrap.com/medsev/default/assets/img/doctor/3.jpg"
+              src={(doctor?.sex === "male" && "https://i.ibb.co/TLqKPLH/1024px-Male-Doctor-Flat-Icon-Vector-svg.png") || (doctor?.sex === "female" && "https://i.ibb.co/09LdpB6/6620101.png")} 
               alt="Dr. Sarah Taylor"
             />
           </div>
@@ -106,7 +106,7 @@ const DoctorProfile = () => {
           </div>
           <div class="divider"></div>
           <div className="mb-5">
-            <h3 className="font-medium text-3xl text-center md:text-left mb-5 text-primary opacity-80 text-primary opacity-80">
+            <h3 className="font-medium text-3xl text-center md:text-left mb-5">
               Expertise
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-4">
