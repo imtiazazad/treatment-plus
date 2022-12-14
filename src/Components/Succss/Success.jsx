@@ -8,7 +8,7 @@ const Success = () => {
     const { id } = useParams();
     const [item, setItem] = useState([]);
     useEffect(() => {
-        axios.get(`https://khadok-server-production.up.railway.app/orders/${id}`)
+        axios.get(`https://hospisearch-server.vercel.app/orders/${id}`)
             .then(res => setItem(res.data))
     }, [id])
     const validatePayment = () => {
@@ -16,7 +16,7 @@ const Success = () => {
             tran_id: id,
             val_id: item?.val_id
         }
-        axios.post(`https://khadok-server-production.up.railway.app/validate`, data)
+        axios.post(`https://hospisearch-server.vercel.app/validate`, data)
             .then(res => {
                 if (res.data) {
                     alert("Order placed successfully")
