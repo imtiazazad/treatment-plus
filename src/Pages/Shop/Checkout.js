@@ -1,11 +1,15 @@
+import axios from 'axios';
 import React, { useState } from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { useParams } from 'react-router-dom';
+import auth from '../../firebase.init';
 import useArrival from '../../hooks/useArrival';
 
 const Checkout = () => {
     const { productId } = useParams();
     const [arrivalData] = useArrival();
     const [totalPrice, setTotalPrice] = useState();
+    const [user] = useAuthState(auth);
 
     const singleData = arrivalData.find(single => single._id === Number(productId));
 
@@ -19,7 +23,35 @@ const Checkout = () => {
         else {
             setTotalPrice(value);
         }
-    }
+    };
+
+    const confirmToPay = (event) => {
+
+        event.preventDefault();
+
+        const info = {
+            item_name: singleData?.name,
+            item_image: singleData?.img,
+            total_amount: (totalPrice ? singleData?.price * totalPrice : singleData?.price).toFixed(2),
+            cus_name: user?.displayName,
+            cus_email: user?.email
+
+        }
+
+        // console.log(info);
+
+        axios.post(`https://khadok-server-production.up.railway.app/init`, info)
+            .then(res => {
+                if (res?.data) {
+                    window.location = res?.data
+                }
+            })
+
+        // if (urlData?.data) {
+        //   window.location.href = urlData?.data
+        // }
+
+    };
 
     return (
         <div className='grid grid-cols-1 py-10 md:grid-cols-2 gap-4 px-4'>
@@ -44,8 +76,8 @@ const Checkout = () => {
                     <div className="card-body">
                         <h2 className="card-title">Checkout</h2>
                         <p>Shipping</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn">Checkout</button>
+                        <div onClick={confirmToPay} className="card-actions justify-end">
+                            <button className="btn">Confirm to Pay</button>
                         </div>
                     </div>
                 </div>

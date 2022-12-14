@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import useArrival from '../../hooks/useArrival';
 import ShopCard from '../Shared/ShopCard';
 
