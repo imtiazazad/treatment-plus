@@ -73,8 +73,8 @@ const HomeSlider = () => {
                                         <div className="w-full h-[60%] p-5 overflow-hidden">
                                             <img src={(data?.sex === "male" && "https://i.ibb.co/TLqKPLH/1024px-Male-Doctor-Flat-Icon-Vector-svg.png") || (data?.sex === "female" && "https://i.ibb.co/09LdpB6/6620101.png")} alt="" className="w-5/6 mx-auto h-full object-cover group-hover:scale-110 duration-200 " />
                                         </div>
-                                        <div className="space-y-2 h-32">
-                                            <div className="flex flex-col text-start bg-gray-200 gap-2 pl-2">
+                                        <div className="space-y-2 h-32 bg-white border">
+                                            <div className="flex flex-col text-start gap-2 pl-2">
                                                 <h1 className="font-bold text-md">{data?.name}</h1>
                                                 <p className="text-sm font-semibold md:text-md">{data?.title}</p>
                                             </div>
@@ -148,7 +148,7 @@ const HomeSlider = () => {
                                             </p> */}
                                         </div>
                                         <div className="">
-                                            <button onClick={() => navigate(`/doctor/${data?.id}`)} className='text-xl w-full font-semibold bg-primary px-4 py-2'>Explore More</button>
+                                            <button onClick={() => navigate(`/doctor/${data?._id}`)} className='text-xl w-full font-semibold bg-primary px-4 py-2'>Explore More</button>
                                         </div>
                                     </div>
                                 </SwiperSlide>
