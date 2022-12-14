@@ -13,6 +13,7 @@ import Shop from './Pages/Shop/Shop';
 import Checkout from './Pages/Shop/Checkout';
 import Success from './Components/Succss/Success';
 import RequireAuth from './Components/RequireAuth';
+import Hospitals from './Pages/Hospitals/Hospitals';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="doctor/:id" element={<RequireAuth><DoctorProfile /></RequireAuth>} />
         <Route path='contact' element={<Contact />} />
+        <Route path='hospitals' element={<Hospitals />} />
         <Route path='shop' element={<Shop />} />
         <Route path='shop/:productId' element={<RequireAuth><Checkout /></RequireAuth>} />
         <Route path="/ssl-payment-success/:id" element={<RequireAuth><Success/></RequireAuth>} />

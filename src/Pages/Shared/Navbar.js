@@ -14,9 +14,10 @@ const Navbar = () => {
     const menuitems = <>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/shop'>Shop</Link></li>
+        <li><Link to='/hospitals'>Hospitals</Link></li>
         <li><Link to='/contact'>Contact Us</Link></li>
         <li>{user ? <button className="btn btn-ghost" onClick={logout}>Sign Out</button> :
-        <Link to='/login'>Login</Link>}</li>
+            <Link to='/login'>Login</Link>}</li>
     </>
     return (
         <div class="navbar bg-base-100">

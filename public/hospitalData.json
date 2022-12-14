@@ -1,0 +1,52 @@
+[
+    {
+        "_id": 1,
+        "name": "Square Hospital",
+        "img": "https://www.yourarticlelibrary.com/wp-content/uploads/2014/04/14929956.jpg"
+    },
+    {
+        "_id": 2,
+        "name": "Apollo Hospital",
+        "img": "https://www.yourarticlelibrary.com/wp-content/uploads/2014/04/4185396.jpg"
+    },
+    {
+        "_id": 3,
+        "name": "Labaid Hospital",
+        "img": "https://www.yourarticlelibrary.com/wp-content/uploads/2014/04/Labaid-Hospital-Amar-Yellow.jpg"
+    },
+    {
+        "_id": 4,
+        "name": "Ibn Sina Hospital",
+        "img": "https://www.yourarticlelibrary.com/wp-content/uploads/2014/04/77815250.jpg"
+    },
+    {
+        "_id": 5,
+        "name": "Popular Hospital",
+        "img": "https://www.yourarticlelibrary.com/wp-content/uploads/2014/04/Popular_Pharmaceuticals_Limited_Side_View_1.jpg"
+    },
+    {
+        "_id": 6,
+        "name": "Birdem Hospital",
+        "img": "https://www.daily-sun.com/assets/news_images/2020/03/24/badem-daily_sun.jpg"
+    },
+    {
+        "_id": 7,
+        "name": "BSMMU Hospital",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/6/6d/BIRDEM_Bangladesh.jpg"
+    },
+    {
+        "_id": 8,
+        "name": "Bangladesh Eye Hospital",
+        "img": "https://3.bp.blogspot.com/-FNT-T0i6Tdw/WhudwOnc11I/AAAAAAAAABo/c9pBWkRFslAZdh4yrKGhnxfJxtWL5zVGgCLcBGAs/s1600/BANGLADESH%2BEYE%2BHOSPITAL%2BLTD.png"
+    },
+    {
+        "_id": 9,
+        "name": "Basundhura Hospital",
+        "img": "https://www.bashundharagroup.com/assets/upload/original/original_1608610114.jpg"
+    },
+    {
+        "_id": 10,
+        "name": "Dhaka Medical College",
+        "img": "https://new-media.dhakatribune.com/en/uploads/2022/02/01/dmch-1-2.jpeg"
+    }
+]
