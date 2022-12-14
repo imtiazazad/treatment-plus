@@ -7,7 +7,7 @@ const Checkout = () => {
     const [arrivalData] = useArrival();
     const [totalPrice, setTotalPrice] = useState();
 
-    const singleData = arrivalData.find(single => single._id == productId);
+    const singleData = arrivalData.find(single => single._id === Number(productId));
 
     const handleInputValue = (e) => {
         let value = parseInt(e.target.value);
@@ -22,8 +22,8 @@ const Checkout = () => {
     }
 
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 px-4'>
-            <div className='flex justify-between align-middle shadow px-12 my-auto'>
+        <div className='grid grid-cols-1 py-10 md:grid-cols-2 gap-4 px-4'>
+            <div className='flex flex-col md:flex-row justify-between align-middle shadow px-12 my-auto'>
                 <img className='h-28' src={singleData?.img} alt=" " />
                 <div className='my-auto'>
                     <h4>{singleData?.name}</h4>
@@ -32,10 +32,11 @@ const Checkout = () => {
                 <div className='my-auto'>
                     <input onChange={handleInputValue}
                         onLoad={(e) => e.target.value = 1}
-                        className='input focus:outline-none input-bordered w-24' type="text" name="quantity" id="quantity" />
+                        placeholder="Enter Quantity"
+                        className='input focus:outline-none input-bordered w-3/5' type="text" name="quantity" id="quantity" />
                 </div>
                 <div className='my-auto'>
-                    <h4 className='text-cyan-500'>${singleData?.price * totalPrice}</h4>
+                    <h4 className='text-cyan-500'>${totalPrice ? singleData?.price * totalPrice : singleData?.price}</h4>
                 </div>
             </div>
             <div className='mx-auto'>

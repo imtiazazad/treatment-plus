@@ -11,6 +11,7 @@ import NotFound from './Pages/Shared/NotFound';
 import Footer from './Pages/Shared/Footer';
 import Shop from './Pages/Shop/Shop';
 import Checkout from './Pages/Shop/Checkout';
+import Success from './Components/Succss/Success';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='contact' element={<Contact />} />
         <Route path='shop' element={<Shop />} />
         <Route path='shop/:productId' element={<Checkout />} />
+        <Route path="/ssl-payment-success/:id" element={<Success/>} />
         <Route path="about" element={<About />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<SignUp />} />

@@ -5,7 +5,7 @@ import SimpleMap from './SimpleMap';
 const Consultation = () => {
     return (
         <>
-            <div className='mt-10 md:px-24 px-4'>
+            {/* <div className='mt-10 md:px-24 px-4'>
                 <h1 className='text-4xl text-center font-semibold'>Request a Consultation</h1>
                 <div className='divider w-14 mt-2 bg-cyan-400 h-1 mx-auto'></div>
                 <form className='mt-10'>
@@ -19,7 +19,7 @@ const Consultation = () => {
                     <textarea name="consultation" id="consultation" className='textarea textarea-bordered w-full focus:outline-none h-36' placeholder='What is the nature of your appointment and who would you like to see? *'></textarea>
                     <button className="bg-cyan-400 mt-8 text-white px-2 md:px-4 mr-2 py-1 md:py-2 hover:bg-cyan-600 md:font-semibold">SEND REQUEST</button>
                 </form>
-            </div>
+            </div> */}
             <SimpleMap />
         </>
     );

@@ -3,6 +3,7 @@
         "_id": 1,
         "name": "Dr. Md. Abdul Hai",
         "title": "Neuromedicine Expert",
+        "img": "https://www.ibnsinatrust.com/upload/Professor%20Dr.%20Md.%20Abdul%20Hayee.jpg",
         "qualifications": [
             "MBBS",
             "FCPS (Medicine)",
@@ -47,6 +48,7 @@
         "_id": 3,
         "name": "Dr. Asma Khatun Aurora",
         "title": "Obstetrics & Gynaecology Specialist",
+        "img":"https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Most.-Asma-Khatun.jpg",
         "qualifications": [
             "MBBS",
             "FCPS (Obs & Gynae)",

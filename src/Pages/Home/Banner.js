@@ -11,8 +11,7 @@ const Banner = () => {
               <h1 className="text-3xl md:text-5xl font-bold mt-24 text-cyan-400">Helping Your Teeth</h1>
               <h1 className='text-slate-800 mb-5 text-3xl md:text-5xl font-bold'>Stay Healthy One</h1>
               <p className="mb-32 text-slate-800">Check Out Our Services!</p>
-              <button className="bg-cyan-500 text-white px-2 md:px-4 mr-2 py-1 md:py-2 hover:bg-cyan-600 md:font-semibold">CHECK OUT</button>
-              <button className="bg-slate-800 md:font-semibold hover:bg-slate-900 text-white px-2 md:px-4 mr-2 py-1 md:py-2">MORE INFO</button>
+              
             </div>
           </div>
         </div>
