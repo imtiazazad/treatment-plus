@@ -12,6 +12,7 @@ import Footer from './Pages/Shared/Footer';
 import Shop from './Pages/Shop/Shop';
 import Checkout from './Pages/Shop/Checkout';
 import Success from './Components/Succss/Success';
+import RequireAuth from './Components/RequireAuth';
 
 function App() {
   return (
@@ -19,11 +20,11 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="doctor/:id" element={<DoctorProfile />} />
+        <Route path="doctor/:id" element={<RequireAuth><DoctorProfile /></RequireAuth>} />
         <Route path='contact' element={<Contact />} />
         <Route path='shop' element={<Shop />} />
-        <Route path='shop/:productId' element={<Checkout />} />
-        <Route path="/ssl-payment-success/:id" element={<Success/>} />
+        <Route path='shop/:productId' element={<RequireAuth><Checkout /></RequireAuth>} />
+        <Route path="/ssl-payment-success/:id" element={<RequireAuth><Success/></RequireAuth>} />
         <Route path="about" element={<About />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<SignUp />} />
