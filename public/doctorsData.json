@@ -20,6 +20,7 @@
             "+880-2-9126625-6",
             "9128835-7"
         ],
+        "sex": "male",
         "chamberPhone": "+8801717351631",
         "desc": "PROFESSOR DR MD ABDUL HAI completed MBBS in Dhaka. He later earned an FCPS degree from the Department of Medicine. Abdul Hai completed his MD degree in Neuromedicine. Prof. Dr. Abdul Hai holds a Ph.D. from India and an FRCP degree from Edin. He is a Professor in the Department of Neuromedicine at Sir Salimulla Medical College and Mitford Hospital."
     },
@@ -34,6 +35,7 @@
             "Fellow (American College of Endocrinology)"
         ],
         "designation": "Associate Professor",
+        "sex": "male",
         "expertise": "Endocrinologist",
         "organization": "Dhaka Medical College & Hospital, Dhaka",
         "chamber": "Labaid Dhanmondi  Branch",
@@ -51,6 +53,7 @@
             " CMU (BTEB) MS (Thesis Part, Dhaka Medical College Hospital)",
             "MRCOG (Final Part, London, United Kingdom)"
         ],
+        "sex": "female",
         "organization": "Surgeon Dhaka Medical College & Hospital",
         "expertise": "Gynaecology",
         "chamber": "Padma General Hospital Ltd",
@@ -66,6 +69,7 @@
             "MBBS",
             "FCPS (ENT)"
         ],
+        "sex": "male",
         "organization": "Bashundhara Ad-din Medical College & Hospital",
         "expertise": "ENT",
         "chamber": "Khidmah Hospital, Dhaka",
@@ -85,6 +89,7 @@
             "FICD (USA)",
             "Postdoc (Australia)"
         ],
+        "sex": "male",
         "designation": "Associate Professor",
         "organization": "Delta Medical College & Hospital",
         "expertise": "Oral, Dental, Periodontal Plastic & Maxillofacial Surgeon",
@@ -106,6 +111,7 @@
             "FRCP (Ireland)",
             "FRCP (UK)"
         ],
+        "sex": "male",
         "designation": "Professor",
         "organization": "Bangabandhu Sheikh Mujib Medical University Hospital.",
         "expertise": "Hepatologist & Gastroenterologist",
@@ -124,6 +130,7 @@
             "AFICA (USA)",
             "FRCP (Glasgow)"
         ],
+        "sex": "male",
         "designation": "Professor",
         "organization": "Holy Family Red Crescent Medical College & Hospital.",
         "expertise": "Skin, Allergy & Sexual Diseases Specialist",
@@ -142,6 +149,7 @@
             "FICS (USA)",
             "Fellow Colorectal Surgery (Singapore)"
         ],
+        "sex": "male",
         "designation": "Professor",
         "organization": "Bangabandhu Sheikh Mujib Medical University Hospital.",
         "expertise": "Colorectal (Piles, Rectum, Colon) Surgeon",
@@ -159,6 +167,7 @@
             "MS (Orthopedics)",
             "FICS"
         ],
+        "sex": "male",
         "designation": "Professor",
         "organization": "National Institute of Traumatology & Orthopedic Rehabilitation",
         "expertise": "Orthopedics (Bone, Joint, Arthritis, Trauma, Injury), Hand & Reconstructive Surgeon",

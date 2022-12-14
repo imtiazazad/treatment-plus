@@ -31,7 +31,7 @@ const Navbar = () => {
                         {menuitems}
                     </ul>
                 </div>
-                <img src="https://i.ibb.co/W27drSx/1-removebg-preview.png" className='h-16 w-54' />
+                <img src="https://i.ibb.co/pWWt23R/Untitled-1.png" className='h-20' alt='' />
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">

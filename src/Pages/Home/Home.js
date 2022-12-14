@@ -1,4 +1,5 @@
 import React from 'react';
+import HomeSlider from '../../Components/HomeSlider/HomeSlider';
 import Banner from './Banner';
 import DocTeam from './DocTeam';
 import Review from './Review';
@@ -9,8 +10,8 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Services></Services>
-            <DocTeam></DocTeam>
-            <Review></Review>
+            <HomeSlider/>
+            {/* <Review></Review> */}
         </div>
     );
 };
