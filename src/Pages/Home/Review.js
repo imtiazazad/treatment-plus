@@ -5,7 +5,7 @@ import Count from "../../Components/Count/Count";
 const Review = () => {
   return (
     <section className="statistics" data-aos="fade-right">
-      <h2 className="text-center">Dental Clinic in Numbers</h2>
+      <h2 className="text-center">Hospital Information in Numbers</h2>
       <p className="text-center">Some Statistics</p>
       <ul className="statistics-list">
         <li className="statistics-item">
