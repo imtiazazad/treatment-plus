@@ -13,11 +13,9 @@ const Services = () => {
           <img src="https://i.ibb.co/zs09Cxh/Screenshot-2022-06-28-131336.png?"/>
           </div>
             <div>
-            <h1 className="text-xl font-bold">World Wide Transport</h1>
+            <h1 className="text-xl font-bold">Best Doctors</h1>
             <p className="text-sm  my-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua.
+            Find the best medical specialists on Top Doctors, read reviews from their patients and book your medical appointments online.
             </p>
             </div>
           </div>
@@ -26,11 +24,9 @@ const Services = () => {
           <img src="https://i.ibb.co/0tJ1PHG/Screenshot-2022-06-28-131420.png?"/>
           </div>
             <div>
-            <h1 className="text-xl font-bold">World Wide Transport</h1>
+            <h1 className="text-xl font-bold">Best Medicine</h1>
             <p className="text-sm  my-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua.
+            Choose the best medicine specialist doctors from top medicine company in Dhaka 
             </p>
             </div>
           </div>
@@ -39,11 +35,9 @@ const Services = () => {
           <img src="https://i.ibb.co/74sGPL0/Screenshot-2022-06-28-140342.png?"/>
           </div>
             <div>
-            <h1 className="text-xl font-bold">World Wide Transport</h1>
+            <h1 className="text-xl font-bold">Dental Care</h1>
             <p className="text-sm  my-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua.
+            General dentist and Cosmetic dentistry, Specially Cosmetic filling, Root canal treatment, Crown and bridge.
             </p>
             </div>
           </div>
@@ -52,11 +46,9 @@ const Services = () => {
           <img src="https://i.ibb.co/DMW99XM/Screenshot-2022-06-28-140404.png?"/>
           </div>
             <div>
-            <h1 className="text-xl font-bold">World Wide Transport</h1>
+            <h1 className="text-xl font-bold">Heart Specialist</h1>
             <p className="text-sm  my-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua.
+            Bangladesh doesn't have a celebrity heart specialist like Dr. Devi Prasad Shetty, but it has some really passionate doctors in this field. 
             </p>
             </div>
           </div>
@@ -65,11 +57,9 @@ const Services = () => {
           <img src="https://i.ibb.co/rpWz2Cq/Screenshot-2022-06-28-140714.png?"/>
           </div>
             <div>
-            <h1 className="text-xl font-bold">World Wide Transport</h1>
+            <h1 className="text-xl font-bold">COVID-19</h1>
             <p className="text-sm  my-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua.
+            Treatments are available that can reduce the chances of death.
             </p>
             </div>
           </div>
@@ -78,11 +68,9 @@ const Services = () => {
           <img src="https://i.ibb.co/F0WJ0Rb/Screenshot-2022-06-28-140735.png?"/>
           </div>
             <div>
-            <h1 className="text-xl font-bold">World Wide Transport</h1>
+            <h1 className="text-xl font-bold">Eye Care</h1>
             <p className="text-sm  my-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua.
+            We are Here for Your Eye Care. Best Eye (Ophthalmology) Specialist Doctor in Dhaka with the promise and commitment in eye care.
             </p>
             </div>
           </div>
