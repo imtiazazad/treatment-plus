@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeSlider from '../../Components/HomeSlider/HomeSlider';
+import Newsletter from '../../Components/NewsLetter/Newsletter';
 import Banner from './Banner';
 import HomeHospitals from './HomeHospitals';
 import Review from './Review';
@@ -13,6 +14,7 @@ const Home = () => {
             <HomeSlider />
             <HomeHospitals></HomeHospitals>
             <Review></Review>
+            <Newsletter/>
         </div>
     );
 };
