@@ -14,7 +14,7 @@ const Newsletter = () => (
           <input type="email" className=' outline-1' placeholder="Enter your email address" />
           <button type="button" className="bg-primary text-white px-7 text-md font-semibold py-4 rounded">Subscribe</button>
         </div>
-        <p className="text-gray-500 text-center pt-5 text-white">We hate spam and your email protected by us!</p>
+        <p className="text-gray-400 text-center pt-5 text-white">We hate spam and your email protected by us!</p>
       </div>
     </div>
   </div>
