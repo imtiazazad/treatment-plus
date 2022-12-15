@@ -7,7 +7,7 @@ const AvailableDate = ({ date }) => {
     const [book, setBook] = useState(null);
 
     useEffect(() => {
-        fetch('services.json')
+        fetch('/services.json')
             .then(res => res.json())
             .then(data => setTreatments(data));
     }, [])
