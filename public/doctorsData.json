@@ -1,6 +1,25 @@
 [
     {
         "_id": 1,
+        "name": "Professor Dr. Md. Afzalur Rahman",
+        "title": "Clinical & Interventional Cardiologist",
+        "img": "http://www.drafzalurrahman.com/images/prof-afzalur-rahman.jpg",
+        "qualifications": [
+            "MD (Cardiology)",
+            "PhD (Cardiology)",
+            "FACC"
+        ],
+        "sex": "male",
+        "designation": "Senior Consultant, Interventional Cardiologist",
+        "organization": "Labaid Cardiac Hospital Ltd.",
+        "expertise": "MBBS, MD (Cardiology), Ph D (Cardiology), FRCP (Glasgow), FRCP (Edin), FACC (USA) Fellowship in Interventional Cardiology (USA, France)",
+        "chamber": "Labaid Cardiac Hospital Ltd",
+        "location": " House- 01 & 03, Road-04, Dhanmondi Dhaka-1205, Bangladesh",
+        "chamberPhone": "+8809666700100",
+        "desc": "Prof. Md. Afzalur Rahman is the former Director & Professor of National Institute of Cardiovascular Diseases (NICVD). His contributions in the field of Cardiology, especially Interventional Cardiology have been recognized extensively in Bangladesh as well as across the world. During his career span of 30 years, he has pioneered numerous angioplasty techniques Directional Atherectomy, Angioscopy, Thrombectomy devices and Drug Eluting Stents, Bioabsorbable Stents and implemented it successfully both in Bangladesh and other regions in Asia Pacific."
+    },
+    {
+        "_id": 2,
         "name": "Dr. Md. Abdul Hai",
         "title": "Neuromedicine Expert",
         "img": "https://www.ibnsinatrust.com/upload/Professor%20Dr.%20Md.%20Abdul%20Hayee.jpg",
@@ -26,9 +45,10 @@
         "desc": "PROFESSOR DR MD ABDUL HAI completed MBBS in Dhaka. He later earned an FCPS degree from the Department of Medicine. Abdul Hai completed his MD degree in Neuromedicine. Prof. Dr. Abdul Hai holds a Ph.D. from India and an FRCP degree from Edin. He is a Professor in the Department of Neuromedicine at Sir Salimulla Medical College and Mitford Hospital."
     },
     {
-        "_id": 2,
+        "_id": 3,
         "name": "Dr. Indrajit Prasad",
         "title": "Endocrinologist Expert",
+        "img": "https://labaid.com.bd/files/images/1610775982.jpg",
         "qualifications": [
             "MBBS (DMC)",
             "FCPS (Medicine)",
@@ -45,7 +65,7 @@
         "desc": "Dr.Indrajit prashad is an MBBS, Medicine specialist from dhaka medical College and completed MD from Birdem hospital.He has advance training on this sector from Singapore and America.On top of that he is also an hormone specialist. Moreover, he is the Professor & Head Dept. of Endocrinology Dhaka Medical College & Hospital"
     },
     {
-        "_id": 3,
+        "_id": 4,
         "name": "Dr. Asma Khatun Aurora",
         "title": "Obstetrics & Gynaecology Specialist",
         "img":"https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Most.-Asma-Khatun.jpg",
@@ -65,9 +85,10 @@
         "desc": " A Fellow of BCPS in Obs & Gynae and Life Member of Obstetrical & Gynaecological Society of Bangladesh (OGSB), Dr. Asma Khatun Aurora is highly reputed and vastly experienced in obstetrics, gynaecology, labour emergency, normal vaginal delivery, caesarean delivery, complicated & high-risk pregnancy, all types of complicated obstetrics & gynaecological operations including cancer surgeries, major gynaecological issues (e.g., pregnancy, menstrual, uterus, ovary etc.), infertility & reproductive health, child and maternal health, family planning & communicable diseases."
     },
     {
-        "_id": 4,
+        "_id": 5,
         "name": "Dr. Md. Mashiur Rahman",
         "title": "ENT Specialist & Head-Neck Surgeon",
+        "img":"https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Md.-Mashiur-Rahman.jpg",
         "qualifications": [
             "MBBS",
             "FCPS (ENT)"
@@ -81,9 +102,10 @@
         "desc": "Dr Md Mashiur Rahman is a Dhaka-based ENT Specialist and Head-Neck Surgeon. His credentials are MBBS, FCPS (ENT). He is now employed at Bashundhara Ad-din Medical College & Hospital as an ENT Specialist & Head-Neck Surgeon. He treats his patients on a daily basis at Dhaka’s Khidmah Hospital. Dr Md Mashiur Rahman practices from 6pm to 9.30pm at Khidmah Hospital in Dhaka (Everyday)."
     },
     {
-        "_id": 5,
+        "_id": 6,
         "name": " Dr. Aslam Almehdi",
         "title": "Maxillofacial Surgeon",
+        "img":"https://media.licdn.com/dms/image/C5103AQH96aBM_FRbcA/profile-displayphoto-shrink_800_800/0/1553467525894?e=1676505600&v=beta&t=-jh57puKCzafoBOGx8-AFetArDN8SL8q0ns6y_nMAUA",
         "qualifications": [
             "BDS",
             "MS",
@@ -102,7 +124,7 @@
         "desc": "Assoc. Prof. Dr. Aslam Almehdi is a Dentist in Dhaka. His qualification is BDS, MS, PhD (Tokyo), FIAOO (UK), FICD (USA), Postdoc (Australia). He is a Consultant Surgeon in the Department of Dental at Delta Medical College & Hospital."
     },
     {
-        "_id": 6,
+        "_id": 7,
         "name": "Dr. Mamun Al Mahtab Shwapnil",
         "title": "Hepatologist & Gastroenterologist",
         "qualifications": [
@@ -124,7 +146,7 @@
         "desc": "Mamun Al Mahtab (August 22, 1970) is a Bangladeshi hepatologist, medical scientist, author, and columnist. With 290 publications in national and international peer-reviewed journals to his credit, Mahtab is currently working as the Head, Division of Interventional Hepatology, Bangabandhu Sheikh Mujib Medical University (BSMMU).[1] In 1998, he graduated from the University of London with an MSc in gastroenterology, and then in 2006, he obtained an MD in hepatology at Bangabandhu Sheikh Mujib Medical University(BSMMU).He has received several awards for his great discovery Nasvac's in 2019."
     },
     {
-        "_id": 7,
+        "_id": 8,
         "name": "Dr. M. U. Kabir Chowdhury",
         "title": "Sexual Diseases Specialist",
         "qualifications": [
@@ -143,7 +165,7 @@
         "desc": "Prof. Dr. M. U. Kabir Chowdhury is a Dermatologist in Dhaka. His qualification is MBBS, DDV (Vienna), AFICA (USA), FRCP (Glasgow). He is a Professor in the Department of Dermatology & Venereology at Holy Family Red Crescent Medical College & Hospital. He regularly provides treatment to his patients at National Skin Center, Dhaka. Practicing hour of Prof. Dr. M. U. Kabir Chowdhury at National Skin Center, Dhaka is 8am to 8pm (Everyday)."
     },    
     {
-        "_id": 8,
+        "_id": 9,
         "name": "Dr. AKM Fazlul Haque",
         "title": "Colorectal Surgeon",
         "qualifications": [
@@ -162,7 +184,7 @@
         "desc": "Prof. Dr. AKM Fazlul Haque is a Colorectal Surgeon in Dhaka. His qualification is MBBS, FCPS (Surgery), FICS (USA), Fellow Colorectal Surgery (Singapore). He is a Former Professor & Chairman in the Department of Colorectal Surgery at Bangabandhu Sheikh Mujib Medical University Hospital. He regularly provides treatment to his patients at Eden Multi Care Hospital, Dhaka. Practicing hour of Prof. Dr. AKM Fazlul Haque at Eden Multi Care Hospital, Dhaka is 10am to 12pm & 5pm to 8pm (Closed: Friday)."
     },
     {
-        "_id": 9,
+        "_id": 10,
         "name": "Dr. R. R. Kairy",
         "title": "Orthopedics",
         "qualifications": [
@@ -179,4 +201,5 @@
         "chamberPhone": "+8801618800088",
         "desc": "Prof. Dr. R. R. Kairy is a Orthopedic Surgeon in Dhaka. His qualification is MBBS, MS (Orthopedics), FICS. He is a Professor in the Department of Orthopedic Surgery at National Institute of Traumatology & Orthopedic Rehabilitation. He regularly provides treatment to his patients at Green Life Hospital, Dhaka. Practicing hour of Prof. Dr. R. R. Kairy at Green Life Hospital, Dhaka is 10am to 12pm & 6pm to 8pm (Closed: Sat, Mon & Friday)."
     }
+    
 ]
