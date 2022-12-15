@@ -22,7 +22,7 @@
         "_id": 2,
         "name": "Dr. Md. Abdul Hai",
         "title": "Neuromedicine Expert",
-        "img": "http://www.drafzalurrahman.com/images/prof-afzalur-rahman.jpg",
+        "img": "https://www.ibnsinatrust.com/upload/Professor%20Dr.%20Md.%20Abdul%20Hayee.jpg",
         "qualifications": [
             "MBBS",
             "FCPS (Medicine)",
@@ -48,6 +48,7 @@
         "_id": 3,
         "name": "Dr. Indrajit Prasad",
         "title": "Endocrinologist Expert",
+        "img": "https://labaid.com.bd/files/images/1610775982.jpg",
         "qualifications": [
             "MBBS (DMC)",
             "FCPS (Medicine)",
@@ -87,6 +88,7 @@
         "_id": 5,
         "name": "Dr. Md. Mashiur Rahman",
         "title": "ENT Specialist & Head-Neck Surgeon",
+        "img":"https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Md.-Mashiur-Rahman.jpg",
         "qualifications": [
             "MBBS",
             "FCPS (ENT)"
@@ -103,6 +105,7 @@
         "_id": 6,
         "name": " Dr. Aslam Almehdi",
         "title": "Maxillofacial Surgeon",
+        "img":"https://media.licdn.com/dms/image/C5103AQH96aBM_FRbcA/profile-displayphoto-shrink_800_800/0/1553467525894?e=1676505600&v=beta&t=-jh57puKCzafoBOGx8-AFetArDN8SL8q0ns6y_nMAUA",
         "qualifications": [
             "BDS",
             "MS",
