@@ -1,30 +1,50 @@
 import React from 'react';
+import "./Review.css"
+import Count from "../../Components/Count/Count";
 
 const Review = () => {
   return (
-    <div class="w-full mx-auto flex justify-center items-center shadow">
-
-      <div className="stats stats-vertical lg:stats-horizontal w-full md:w-4/5 mx-auto">
-        <div class="stat text-center">
-          <div class="stat-title">Doctors</div>
-          <div class="stat-value">321</div>
-          <div class="stat-desc">Jan 1st - Feb 1st</div>
-        </div>
-
-        <div class="stat text-center">
-          <div class="stat-title">Web Users</div>
-          <div class="stat-value">4,200</div>
-          <div class="stat-desc">↗︎ 400 (22%)</div>
-        </div>
-
-        <div class="stat text-center">
-          <div class="stat-title">Patients</div>
-          <div class="stat-value">1,200</div>
-          <div class="stat-desc">↘︎ 90 (14%)</div>
-        </div>
-      </div>
-
-    </div>
+    <section className="statistics" data-aos="fade-right">
+      <h2 className="text-center">Dental Clinic in Numbers</h2>
+      <p className="text-center">Some Statistics</p>
+      <ul className="statistics-list">
+        <li className="statistics-item">
+          <i class="far fa-thumbs-up"></i>
+          <h4>
+            <Count end="100" suffix="%"></Count>
+          </h4>
+          <p>Quality</p>
+        </li>
+        <li className="statistics-item">
+          <i class="fas fa-user-injured"></i>
+          <h4>
+            <Count end="3500"></Count>
+          </h4>
+          <p>Patients a year</p>
+        </li>
+        <li className="statistics-item">
+          <i class="fas fa-user-friends"></i>
+          <h4>
+            <Count end="250"></Count>
+          </h4>
+          <p>Working People</p>
+        </li>
+        <li className="statistics-item">
+          <i class="fas fa-calendar-week"></i>
+          <h4>
+            <Count end="7"></Count>
+          </h4>
+          <p>Years of Experience</p>
+        </li>
+        <li className="statistics-item">
+          <i class="far fa-smile-beam"></i>
+          <h4>
+            <Count end="15000"></Count>
+          </h4>
+          <p>Happy Patient</p>
+        </li>
+      </ul>
+    </section>
   );
 };
 
