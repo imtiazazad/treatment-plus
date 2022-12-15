@@ -11,11 +11,11 @@ const HomeHospitals = () => {
                 {
                     hospitals?.slice(0, 3)?.map(hospital => (
                         <div className="rounded-xl space-y-2 h-full w-full bg-gray-200 p-5">
-                            <div className="h-[85%]">
+                            <div className="h-[80%]">
                                 <img src={hospital?.img} alt="" className="rounded h-[100%] w-[100%] object-cover" />
                             </div>
                             <h3 className="text-xl md:text-2xl font-bold">{hospital?.name}</h3>
-                            <p className="text-xl">{hospital?.address}</p>
+                            <p className="text-md"><span className="font-bold">Address:</span>{hospital?.address}</p>
                         </div>
                     ))
                 }
