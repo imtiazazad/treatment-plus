@@ -127,6 +127,7 @@
         "_id": 7,
         "name": "Dr. Mamun Al Mahtab Shwapnil",
         "title": "Hepatologist & Gastroenterologist",
+        "img":"https://labaid.com.bd/files/images/1579688893.jpg",
         "qualifications": [
             "MBBS",
             "MSc (Gastro)",
@@ -149,6 +150,7 @@
         "_id": 8,
         "name": "Dr. M. U. Kabir Chowdhury",
         "title": "Sexual Diseases Specialist",
+        "img":"https://www.doctorbangladesh.com/wp-content/uploads/Prof.-Dr.-M.-U.-Kabir-Chowdhury.jpg",
         "qualifications": [
             "MBBS",
             "DDV (Vienna)",
@@ -168,6 +170,7 @@
         "_id": 9,
         "name": "Dr. AKM Fazlul Haque",
         "title": "Colorectal Surgeon",
+        "img":"https://www.daktars.com/uploads/doctor/avatar/192/prof_dr_akm_fazlul_haque_daktars_dot_com.jpg",
         "qualifications": [
             "MBBS",
             "FCPS (Surgery)",
@@ -187,6 +190,7 @@
         "_id": 10,
         "name": "Dr. R. R. Kairy",
         "title": "Orthopedics",
+        "img":"https://www.doctorbangladesh.com/wp-content/uploads/Dr-Ramdew-Ram-Kairy.jpg",
         "qualifications": [
             "MBBS",
             "MS (Orthopedics)",
