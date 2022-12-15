@@ -4,6 +4,7 @@ import Calender from './Calender'
 import { format } from 'date-fns';
 import { useParams } from 'react-router-dom';
 import useDoctors from '../../hooks/useDoctors';
+import Treatment from './Treatment';
 
 const DoctorProfile = () => {
   const { id } = useParams();
