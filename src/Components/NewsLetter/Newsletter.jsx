@@ -4,7 +4,7 @@ import './Newsletter.css';
 
 const Newsletter = () => (
   <div className="container py-10 px-5 w-full mx-auto">
-    <div className="border flex flex-col md:flex-row gap-3 mx-auto w-full border-dotted rounded space-y-2 bg-accent border-[#F5C332] py-10 p-7">
+    <div className="border flex flex-col md:flex-row gap-3 mx-auto w-full border-dotted rounded space-y-2 bg-[#fffff] border-[#06b6d4] py-10 p-7">
       <div className="mx-auto w-full">
         <img draggable="false" src="https://i.ibb.co/TLLrnqh/Whats-App-Image-2022-12-15-at-10-59-51.jpg" alt="" className="object-cover rounded-xl" />
       </div>
@@ -14,7 +14,7 @@ const Newsletter = () => (
           <input type="email" className=' outline-1' placeholder="Enter your email address" />
           <button type="button" className="bg-primary text-white px-7 text-md font-semibold py-4 rounded">Subscribe</button>
         </div>
-        <p className="text-gray-400 text-center pt-5 text-white">We hate spam and your email protected by us!</p>
+        <p className="text-gray-500 text-center pt-5 text-white">We hate spam and your email protected by us!</p>
       </div>
     </div>
   </div>

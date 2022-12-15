@@ -2,51 +2,73 @@
     {
         "_id": 1,
         "name": "Square Hospital",
-        "img": "https://findoutadoctor.com/wp-content/uploads/2018/09/Square-Hospital-Ltd.jpg"
+        "img": "https://findoutadoctor.com/wp-content/uploads/2018/09/Square-Hospital-Ltd.jpg",
+        "facility" : "hospital services.",
+        "address" : "Dhaka, Bangladesh"
+        
     },
     {
         "_id": 2,
         "name": "Apollo Hospital",
-        "img": "https://www.finddoctor24.com/wp-content/uploads/2017/09/Apollo-Hospital.jpg"
+        "img": "https://www.finddoctor24.com/wp-content/uploads/2017/09/Apollo-Hospital.jpg",
+        "facility" : "hospital services.",
+        "address" : "Dhaka, Bangladesh"
     },
     {
         "_id": 3,
         "name": "Labaid Hospital",
-        "img": "https://dhakato.com/wp-content/uploads/2021/07/labaid-hospital-dhanmondi-doctor-list.jpg"
+        "img": "https://dhakato.com/wp-content/uploads/2021/07/labaid-hospital-dhanmondi-doctor-list.jpg",
+        "facility" : "hospital services.",
+        "address" : "Dhaka, Bangladesh"
+
     },
     {
         "_id": 4,
         "name": "Ibn Sina Hospital",
-        "img": "https://doctorguideonline.com/wp-content/uploads/2020/09/Ibn-Sina-Diagnostic-Phone-Number.jpg"
+        "img": "https://doctorguideonline.com/wp-content/uploads/2020/09/Ibn-Sina-Diagnostic-Phone-Number.jpg",
+        "facility" : "hospital services.",
+        "address" : "Dhaka, Bangladesh"
     },
     {
         "_id": 5,
         "name": "Popular Hospital",
-        "img": "https://www.marketbangladesh.com/media/com_jbusinessdirectory/pictures/companies/1093/PopularHospitalKurigram.jpg"
+        "img": "https://www.marketbangladesh.com/media/com_jbusinessdirectory/pictures/companies/1093/PopularHospitalKurigram.jpg",
+        "facility" : "hospital services.",
+        "address" : "Dhaka, Bangladesh"
     },
     {
         "_id": 6,
         "name": "Birdem Hospital",
-        "img": "https://www.daily-sun.com/assets/news_images/2020/03/24/badem-daily_sun.jpg"
+        "img": "https://www.daily-sun.com/assets/news_images/2020/03/24/badem-daily_sun.jpg",
+        "facility" : "hospital services.",
+        "address" : "Dhaka, Bangladesh"
     },
     {
         "_id": 7,
         "name": "BSMMU Hospital",
-        "img": "https://upload.wikimedia.org/wikipedia/commons/6/6d/BIRDEM_Bangladesh.jpg"
+        "img": "https://upload.wikimedia.org/wikipedia/commons/6/6d/BIRDEM_Bangladesh.jpg",
+        "facility" : "hospital services.",
+        "address" : "Dhaka, Bangladesh"
     },
     {
         "_id": 8,
         "name": "Bangladesh Eye Hospital",
-        "img": "https://3.bp.blogspot.com/-FNT-T0i6Tdw/WhudwOnc11I/AAAAAAAAABo/c9pBWkRFslAZdh4yrKGhnxfJxtWL5zVGgCLcBGAs/s1600/BANGLADESH%2BEYE%2BHOSPITAL%2BLTD.png"
+        "img": "https://3.bp.blogspot.com/-FNT-T0i6Tdw/WhudwOnc11I/AAAAAAAAABo/c9pBWkRFslAZdh4yrKGhnxfJxtWL5zVGgCLcBGAs/s1600/BANGLADESH%2BEYE%2BHOSPITAL%2BLTD.png",
+        "facility" : "hospital services.",
+        "address" : "Dhaka, Bangladesh"
     },
     {
         "_id": 9,
         "name": "Basundhura Hospital",
-        "img": "https://www.bashundharagroup.com/assets/upload/original/original_1608610114.jpg"
+        "img": "https://www.bashundharagroup.com/assets/upload/original/original_1608610114.jpg",
+        "facility" : "hospital services.",
+        "address" : "Dhaka, Bangladesh"
     },
     {
         "_id": 10,
         "name": "Dhaka Medical College",
-        "img": "https://new-media.dhakatribune.com/en/uploads/2022/02/01/dmch-1-2.jpeg"
+        "img": "https://new-media.dhakatribune.com/en/uploads/2022/02/01/dmch-1-2.jpeg",
+        "facility" : "hospital services.",
+        "address" : "Dhaka, Bangladesh"
     }
 ]
