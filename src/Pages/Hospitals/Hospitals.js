@@ -12,6 +12,8 @@ const Hospitals = () => {
                             <img src={hospital?.img} alt="" className="rounded h-[100%] w-[100%] object-cover" />
                         </div>
                         <h3 className="text-xl md:text-2xl font-bold">{hospital?.name}</h3>
+                        <p className="text-xl">{hospital?.description}</p>
+                        <p className="text-xl">{hospital?.address}</p>
                     </div>
                 ))
             }

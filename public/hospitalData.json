@@ -3,72 +3,72 @@
         "_id": 1,
         "name": "Square Hospital",
         "img": "https://findoutadoctor.com/wp-content/uploads/2018/09/Square-Hospital-Ltd.jpg",
-        "facility" : "hospital services.",
-        "address" : "Dhaka, Bangladesh"
+        "description" : "SQUARE Hospitals Limited is a 500-bed premiere tertiary care Hospital and the leading provider of private healthcare services in Bangladesh. This hospital is an affiliate partner of Methodist Healthcare, Memphis, Tennessee, USA; Christian Medical College-Vellore, India; SingHealth, and Raffles Hospital, Singapore.",
+        "address" : " 18/F, Bir Uttam, Qazi Nuruzzaman Sarak, West Panthapath, Dhaka-1205, Bangladesh"
         
     },
     {
         "_id": 2,
         "name": "Apollo Hospital",
         "img": "https://www.finddoctor24.com/wp-content/uploads/2017/09/Apollo-Hospital.jpg",
-        "facility" : "hospital services.",
-        "address" : "Dhaka, Bangladesh"
+        "description" : "Apollo Hospitals Dhaka is the only JCI Accredited 425-bed multi-disciplinary super-specialty tertiary care hospital in Bangladesh, confidently providing comprehensive health care with the latest medical, surgical and diagnostic facilities. These services are provided by expert medical professionals, skilled nurses and technologists using state-of-the-art technology. The hospital started its operation on April 16, 2005 with a mission to provide high quality international standard healthcare which will meet the needs and exceed the expectations of the people of Bangladesh.",
+        "address" : "Plot # 81, Block # E, Basudhara R/A, Dhaka - 1229, Bangladesh."
     },
     {
         "_id": 3,
         "name": "Labaid Hospital",
         "img": "https://dhakato.com/wp-content/uploads/2021/07/labaid-hospital-dhanmondi-doctor-list.jpg",
-        "facility" : "hospital services.",
-        "address" : "Dhaka, Bangladesh"
+        "description" : "Labaid may be a popular name within the Bangladesh healthcare industry. This Hospital Established: 2004. This Hospital serves cardiac treatment. The doctors are professionals in doctoring cardiac health issues. Moreover, it's one of the very famous hospitals in Dhaka. LABAID Specialized Hospital has formed a more revolution in cardiac treatment in Bangladesh. LABAID Specialized Hospital could be a super-tertiary care hospital in Bangladesh. This hospital provides the most recent surgical and diagnostic facilities. It’s an example of the synergy of medical advances in IT. The proficient technologists and officials of the hospital helped constantly.",
+        "address" : "House- 06, Road-04, Dhanmondi Dhaka-1205, Bangladesh"
 
     },
     {
         "_id": 4,
         "name": "Ibn Sina Hospital",
         "img": "https://doctorguideonline.com/wp-content/uploads/2020/09/Ibn-Sina-Diagnostic-Phone-Number.jpg",
-        "facility" : "hospital services.",
-        "address" : "Dhaka, Bangladesh"
+        "description" : "This hospital was established in the year 1983, in a small mode. Since then, it has grown to the current position providing medical services in many areas, using top class facilities. Specialty of this hospital is its service attitude which is well respected in Bangladesh as well as the neighboring countries. It has all facilities and expertise required to treat those who are undergoing difficulties, providing them with care and affection. This has created a cultural impact on the society around this hospital.",
+        "address" : "House# 79/1E, Demra Road, Uttar Jatrabari, Dhaka-1204, Bangladesh"
     },
     {
         "_id": 5,
         "name": "Popular Hospital",
         "img": "https://www.marketbangladesh.com/media/com_jbusinessdirectory/pictures/companies/1093/PopularHospitalKurigram.jpg",
-        "facility" : "hospital services.",
-        "address" : "Dhaka, Bangladesh"
+        "description" : "This is a hospital attached to the “Popular Medical College” in Dhaka. It has a dedicated treatment center as well as a world class lab. As the name suggests, this is a hospital for the masses and is able to handle the quantity with quality care. It focuses on both illness care as well as the wellness aspects, so that the recurring problems are avoided and the patients go away with a healthy, long term solution to their current problem.",
+        "address" : "House: 08, Road: 02, Dhanmondi, Dhaka-1205, Bangladesh"
     },
     {
         "_id": 6,
         "name": "Birdem Hospital",
         "img": "https://www.daily-sun.com/assets/news_images/2020/03/24/badem-daily_sun.jpg",
-        "facility" : "hospital services.",
-        "address" : "Dhaka, Bangladesh"
+        "description" : "BIRDEM (the Bangladesh Institute of Research and Rehabilitation in Diabetes, Endocrine, and Metabolic Disorders) may be a well-known and famous hospital in Bangladesh. Its location is at Shahbag Square in Dhaka. It’s Established: 1980. BIRDEM General Hospital may be a 600-bed hospital complex. Moreover, a day almost 3,500 patients take treatment from the outside. BIRDEM is serving many diabetes patients. This hospital is the largest in the treatment of diabetes. Besides, it's designated as a WHO Cooperating Center on Diabetes. This hospital features a comprehensive health care centre. Its global popularity for its world-class expert staff members. This is often the low price hospital in Bangladesh. They take the very lowest amount of cash from patients for appointments.",
+        "address" : "122 Kazi Nazrul Islam Avenue, Shahbagh, Dhaka-1000, Bangladesh"
     },
     {
         "_id": 7,
         "name": "BSMMU Hospital",
         "img": "https://upload.wikimedia.org/wikipedia/commons/6/6d/BIRDEM_Bangladesh.jpg",
-        "facility" : "hospital services.",
-        "address" : "Dhaka, Bangladesh"
+        "description" : "The location of Bangabandhu Sheikh Mujib Medical University (BSMMU) in Dhaka is Shahbagh. Established: it 1965 Many specialized treatment centres are available at BSMMU. The only medical university in Bangladesh is Bangabandhu Sheikh Mujib Medical University. The largest pediatric haematology centre in Bangladesh is at (BSMMU). Specifically, for the treatment of cancer-affected children. There is also an oncology department there.",
+        "address" : "Kazi Nazrul Islam Avenue, Shahbag, Dhaka-1000, Bangladesh"
     },
     {
         "_id": 8,
         "name": "Bangladesh Eye Hospital",
         "img": "https://3.bp.blogspot.com/-FNT-T0i6Tdw/WhudwOnc11I/AAAAAAAAABo/c9pBWkRFslAZdh4yrKGhnxfJxtWL5zVGgCLcBGAs/s1600/BANGLADESH%2BEYE%2BHOSPITAL%2BLTD.png",
-        "facility" : "hospital services.",
-        "address" : "Dhaka, Bangladesh"
+        "description" : "hospital services.",
+        "address" : "House- 78, Satmasjid Road, Dhaka 1205, Bangladesh"
     },
     {
         "_id": 9,
         "name": "Basundhura Hospital",
         "img": "https://www.bashundharagroup.com/assets/upload/original/original_1608610114.jpg",
-        "facility" : "hospital services.",
-        "address" : "Dhaka, Bangladesh"
+        "description" : "Established in 2005, this specialized hospital focuses on eye care. It has a 10 storied building with many operation theaters and treatment facilities, providing cost effective solutions to ophthalmic patients.Eye problems have the potential to disturb regular activities of people of any age. From newborns to senior citizens, this hospital provides eye diagnosis, treatments, and surgery services to hundreds of people at the same time. Any technological advances in medicine field reaches this hospital first and benefits Bangladeshis.",
+        "address" : "156 Green Majeda Park, Shanti-Nagar, Dhaka-1217, Bangladesh"
     },
     {
         "_id": 10,
         "name": "Dhaka Medical College",
         "img": "https://new-media.dhakatribune.com/en/uploads/2022/02/01/dmch-1-2.jpeg",
-        "facility" : "hospital services.",
-        "address" : "Dhaka, Bangladesh"
+        "description" : "Dhaka Medical College is one of the oldest hospitals in Bangladesh. Through the British passé, this hospital's establishment date was in 1946. Currently, it provides treatment for specialized problems. Commonly, its name is DMCH. This can be a public medical college hospital. It’s the foremost popular and prestigious medical college. Moreover, one of the biggest health care hospitals in Dhaka. This reputed hospital is well-known. This school pioneered nearly every extraordinary medical achievement. Bangladesh's first autologous bone transplant began in its transplant unit. It's especially known for its Burn & cosmetic surgery Unit.",
+        "address" : "100 Ramna, Central Shaeed Minar Area, Bakshi Bazar,. Dhaka – 1000, Bangladesh"
     }
 ]
