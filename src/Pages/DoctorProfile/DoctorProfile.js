@@ -31,7 +31,7 @@ const DoctorProfile = () => {
         <div className="rounded shadow-md h-full border-gray-400 p-5 md:p-8 mx-auto md:col-span-1">
           <div>
             <img
-              src={(doctor?.sex === "male" && "https://i.ibb.co/TLqKPLH/1024px-Male-Doctor-Flat-Icon-Vector-svg.png") || (doctor?.sex === "female" && "https://i.ibb.co/09LdpB6/6620101.png")} 
+              src={doctor?.img} 
               alt="Dr. Sarah Taylor"
             />
           </div>

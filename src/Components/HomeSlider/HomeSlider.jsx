@@ -70,8 +70,8 @@ const HomeSlider = () => {
                             doctors?.map(data => (
                                 <SwiperSlide>
                                     <div className="w-full h-full mx-auto group bg-gray-200 rounded-xl duration-200 overflow-hidden">
-                                        <div className="w-full h-[60%] p-5 overflow-hidden">
-                                            <img src={(data?.sex === "male" && "https://i.ibb.co/TLqKPLH/1024px-Male-Doctor-Flat-Icon-Vector-svg.png") || (data?.sex === "female" && "https://i.ibb.co/09LdpB6/6620101.png")} alt="" className="w-5/6 mx-auto h-full object-cover group-hover:scale-110 duration-200 " />
+                                        <div className="w-full h-64 p-5 overflow-hidden">
+                                            <img src={data?.img} alt="" className="w-5/6 mx-auto h-44 object-cover group-hover:scale-110 duration-200 " />
                                         </div>
                                         <div className="space-y-2 h-32 bg-white border">
                                             <div className="flex flex-col text-start gap-2 pl-2">
