@@ -120,10 +120,7 @@ const DoctorProfile = () => {
                   <h4 className="text-2xl font-medium mb-3 text-center md:text-left text-primary opacity-80">
                     Heart Specialist
                   </h4>
-                  <p className="text-justify text-sm">
-                    Sirius WordPress Theme features a slick and clean design
-                    that is suitable for virtually any type of website
-                  </p>
+                  <p>Diagnose and treat disorders and diseases of the cardiovascular system.</p>
                 </div>
               </div>
               <div className="flex flex-col md:flex-row items-center py-5 md:p-5">
@@ -134,44 +131,35 @@ const DoctorProfile = () => {
                 />
                 <div>
                   <h4 className="text-2xl font-medium mb-3 text-center md:text-left text-primary opacity-80">
-                    Kidney Specialist
+                  pulmonologist
                   </h4>
-                  <p className="text-justify text-sm">
-                    Sirius WordPress Theme features a slick and clean design
-                    that is suitable for virtually any type of website
-                  </p>
+                  <p>Pulmonologist diagnoses and treats diseases of the respiratory system.</p>
                 </div>
               </div>
               <div className="flex flex-col md:flex-row items-center py-5 md:p-5">
                 <img
-                  className="w-16 h-16 mb-5 md:mb-0 md:mr-6"
-                  src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/452/external-kidneys-anatomy-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"
+                  className="w-24 h-24 mb-5 md:mb-0 md:mr-6"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScQ8g5oUhk5PgoBhJKfH6sMjc4ZT-hQdHGsB2yEJHN8htdiUzU"
                   alt=""
                 />
                 <div>
                   <h4 className="text-2xl font-medium mb-3 text-center md:text-left text-primary opacity-80">
-                    Kidney Specialist
+                  Neuro Specialist
                   </h4>
-                  <p className="text-justify text-sm">
-                    Sirius WordPress Theme features a slick and clean design
-                    that is suitable for virtually any type of website
-                  </p>
+                  <p>Diagnoses, treats and manages disorders of the brain and nervous system (brain, spinal cord and nerves).</p>
                 </div>
               </div>
               <div className="flex flex-col md:flex-row items-center py-5 md:p-5">
                 <img
-                  className="w-16 h-16 mb-5 md:mb-0 md:mr-6"
-                  src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/452/external-kidneys-anatomy-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"
+                  className="w-24 h-24 mb-5 md:mb-0 md:mr-6"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD_WsEMJL1_I0NIA6DEMGK-Z0HXoB3c9uLD5hDY-pJh7bp021T"
                   alt=""
                 />
                 <div>
                   <h4 className="text-2xl font-medium mb-3 text-center md:text-left text-primary opacity-80">
-                    Kidney Specialist
+                  Cardiac specialist
                   </h4>
-                  <p className="text-justify text-sm">
-                    Sirius WordPress Theme features a slick and clean design
-                    that is suitable for virtually any type of website
-                  </p>
+                  <p>Cardiologist is a physician who's an expert in the care of your heart and blood vessels.</p>
                 </div>
               </div>
 
