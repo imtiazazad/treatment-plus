@@ -26,8 +26,6 @@ const Navbar = () => {
     };
 
 
-    //   console.log(arrivalData);
-
     const logout = () => {
         signOut(auth)
     }
